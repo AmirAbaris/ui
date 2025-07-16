@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ContentView: View {
+struct CounterView: View {
     @State private var count = 0
 
     var body: some View {
@@ -32,5 +32,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    CounterView()
 }
